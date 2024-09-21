@@ -16,12 +16,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/TaskAppLogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hgallo.TaskApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d0c2c58a-7248-4723-a120-51c92f33d999"
+      }
+    },
+    "owner": "hgallo"
   }
 }
